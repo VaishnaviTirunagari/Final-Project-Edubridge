@@ -10,7 +10,7 @@ Bike Buyers Dataset for Exploratory Data Analysis.
 
 This dataset has details of 1000 users from different backgrounds and whether or not they buy a bike. This data can be used for prediction models using Machine Learning Algorithms. There are some NA values injected in the dataset. Use this dataset for Data Cleaning, Exploration and Visualization.
 
-About the Data
+## About the Data
 
 | Columns            |      Description                                                        |
 |--------------------|------------------------------------------------------------------------ |
@@ -40,7 +40,7 @@ About the Data
 |                    |                                                                         |
 | Purchased Bike     |    Bike Purchased by the Customer                                       |
 
-Problem Statement:
+## Problem Statement:
 
 The study on Customer buying behaviour while purchasing a bike , the possibility and the factors that influence the customer to purchase the bike.
 
@@ -48,10 +48,19 @@ The objective is to analize the criteria where and by whom more numbers of bikes
 
 Implementation:
 
-Libraries:
-NumPy  pandas  sklearn  Matplotlib  Seaborn
+## Libraries:
+NumPy
 
-Approach:
+Pandas 
+
+sklearn 
+
+Matplotlib 
+
+Seaborn
+
+## Approach:
+
 The aim is to create a model that helps the users to apply machine learning approach to predict Purchasing criteria. Here, the models used are
 
 Logistic Regression
@@ -64,7 +73,7 @@ GaussianNB
 
 XGBoost Classifier
 
-Comparison of all Models:
+## Comparison of all Models:
 
 |Model                      | Accuracy Percentage |	                                                            
 |---------------------------|-------------------- |
@@ -74,5 +83,5 @@ Comparison of all Models:
 |GaussianNB                 |      65%	          |   
 |XGBoost Classifier         |      75%	          |   
 
-From all the models Best Model is Random Forest Classifier and the Accuracy of model is .77
+## From all the models Best Model is Random Forest Classifier and the Accuracy of model is .77
 
